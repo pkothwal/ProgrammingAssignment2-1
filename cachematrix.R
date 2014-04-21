@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Below function takes a 2 by 2 matrix as input (x) to create a list, each element of the list can be accessed to perform 
+## a particular function.
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -20,7 +21,8 @@ m <- NULL
 }
 
 
-## Write a short comment describing this function
+## This function takes a list and outputs inverse of matrix (x) , it stores the inverse in chache for further calls of this function
+## until x changed by set function. 
 
 cacheSolve <- function(x, ...) {
 
